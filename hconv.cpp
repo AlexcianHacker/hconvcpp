@@ -37,8 +37,7 @@ int main(int argc, char *argv[]) {
                 while (std::getline(std::cin, inStr) && inStr.empty()) { 
                     std::cout << "Enter String To Convert To Hex Here: "; 
                 } 
-                return convH(inStr.c_str()).rcode;   
-                break; 
+                return convH(inStr.c_str()).rcode;  
             } 
         } 
     } 
